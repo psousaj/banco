@@ -1,0 +1,22 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Conta c = new Conta("234-0", "Jeová");
+		c.creditar(2000);
+		c.debitar(100);
+		double valor = c.getSaldo();
+		c.setCliente("Jeová Tavares");
+		
+		
+		ContaEspecial c2 = new ContaEspecial("345-1", "José", 2500);
+		c2.setLimite(2000);
+		
+		int i = 7;
+		
+		System.out.println(c);
+		
+		System.out.println(c2);
+	}
+
+}
