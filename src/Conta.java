@@ -38,7 +38,7 @@ public class Conta {
 	
 	@Override
 	public String toString() {
-		return "\n"+super.toString() + "\n" + mostra();
+		return "\n------------------------\n"+super.toString() + "\n" + mostra();
 	}
 	
 	public void setCliente(String cliente) {
